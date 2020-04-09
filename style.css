@@ -31,12 +31,17 @@
   text-align: center;
   background-color: #F4F4F4;
 }
-#big{
+#bigTitle{
   font-size: 70px;
 }
 
-#small{
+#smallTitle{
   font-size: 30px;
+}
+#frontimage{
+  float: left;
+  width: 600px; 
+  height: auto;
 }
 
 .offerContact{
@@ -44,20 +49,29 @@
 }
 
 .offer{
-  padding-right: 80px;
+  margin-top:100px;
+  padding-top: 100px;
+  padding-right: 200px;
   text-align: right;
 }
 #whatweoffer{
-  font-size: 40px;
+  margin-top:100px;
+  font-size: 60px;
+
 
 }
 #offerlist{
+  padding-right: 120px;
+  line-height: 80px;
   display: inline-block;
   text-align:left;
-  font-size:20px;
+  font-size:30px;
 }
+.space { margin-top: 300px; }
+
 .contact{
   text-align: center;
+  padding-bottom: 100px;
 }
 #contactus{
   font-size: 20px;
