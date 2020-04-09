@@ -36,6 +36,15 @@
 #small{
   font-size: 30px;
   font-family: "Lucida Console", Courier, monospace;
+}
 
+.offerContact{
+  background-color: #E1EFF2;
+}
 
+.offer{
+  text-align: top;
+}
+#contactus{
+  font-size: 30px;
 }
