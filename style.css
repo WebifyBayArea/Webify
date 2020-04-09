@@ -26,6 +26,8 @@
 }
 
 .header {
+  font-family: "Lucida Console", Courier, monospace;
+
   text-align: center;
   background-color: #F4F4F4;
 }
@@ -35,7 +37,6 @@
 
 #small{
   font-size: 30px;
-  font-family: "Lucida Console", Courier, monospace;
 }
 
 .offerContact{
@@ -43,8 +44,21 @@
 }
 
 .offer{
-  text-align: top;
+  padding-right: 80px;
+  text-align: right;
+}
+#whatweoffer{
+  font-size: 40px;
+
+}
+#offerlist{
+  display: inline-block;
+  text-align:left;
+  font-size:20px;
+}
+.contact{
+  text-align: center;
 }
 #contactus{
-  font-size: 30px;
+  font-size: 20px;
 }
