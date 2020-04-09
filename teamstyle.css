@@ -32,10 +32,30 @@
 	transform: rotateX(20deg);
 }
 
-.officer{
+.allen{
 	background-color: #F4F4F4;
 	font-family: Verdana;
 	padding: 100px 100px;
 	margin: 20px 100px;
 	height: 250px;
+}
+
+.richard{
+  background-color: #F4F4F4;
+  font-family: Verdana;
+  padding: 100px 100px;
+  margin: 20px 100px;
+  height: 250px;
+}
+#richardimage{
+ float: left;
+  width: 200px; 
+  height: auto;
+}
+
+#allenimage{
+  float: left;
+  width: 200px; 
+  height: auto;
+
 }
