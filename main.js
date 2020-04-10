@@ -1,8 +1,9 @@
-require('dotenv').config();
-console.log(process.env.apiKey);
+//require('dotenv').config(); THIS IS THE PROBLEM
+//console.log(process.env.apiKey);
 
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
+
     apiKey: "AIzaSyD0T5nYoEvPbc594yZyHBMFCZAVk2BGVi8",
     authDomain: "webify-580df.firebaseapp.com",
     databaseURL: "https://webify-580df.firebaseio.com",
