@@ -1,0 +1,19 @@
+{
+  "name": "webify",
+  "version": "1.0.0",
+  "description": "A website development business to help local businesses and restaraunts during COVID-19",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allenye66/Webify.git"
+  },
+  "author": "allen ye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allenye66/Webify/issues"
+  },
+  "homepage": "https://github.com/allenye66/Webify#readme"
+}
