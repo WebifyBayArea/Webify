@@ -23,7 +23,7 @@
   color: white;
 }
 .wholepage{
-  font-family: "Trebuchet MS" ;
+  font-family: Candara ;
 
 }
 .header {
@@ -36,6 +36,7 @@
 }
 #bigTitle{
   font-size: 70px;
+  -webkit-animation: titleanimation 2s;
 }
 
 #smallTitle{
@@ -60,6 +61,7 @@
 }
 #whatweoffer{
   margin-top:100px;
+  margin-bottom: 0px;
   font-size: 60px;
 
 
@@ -78,7 +80,7 @@
   padding-bottom: 100px;
 }
 #contactus{
-  font-size: 20px;
+  font-size: 60px;
 }
 ul.offerlist{
   list-style: none;
@@ -86,4 +88,12 @@ ul.offerlist{
 ul.offerlist li{
   background: url("starBullet.JPG") left center no-repeat;
   padding-left: 80px;
+}
+#email{
+  font-size: 30px;
+}
+
+@-webkit-keyframes titleanimation{
+  0% {font-size: 0px;}
+  100% {font-size: 70px;}
 }

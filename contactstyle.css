@@ -22,20 +22,39 @@
 }
 
 #submitbutton {
-background: #0066A2;
+  color: white;
+  height: 50px;
+  font-family: Candara;
+  text-shadow:none;
+  margin-top: 20px;
+  background: #050505;
+  border: 0;
+  width: 360px;
+  font-size: 20px;
+}
+.contactpage{
+  background-color: #F4F4F4;
+  padding: 100px 200px;
+  text-align: center;
+}
+.forminput{
+  padding: 10px 5px;
+  margin: 10px 5px;
+  border: 0;
+}
+#message{
+  resize: none;
+  margin-top: 5px;
+  border: 0;
+  padding: 10px 10px;
+}
+#submitbutton:hover{
+  background: #656565;
+}
+.wholepage{
+  font-family: Candara;
+}
 
-color: white;
-
-border-style: outset;
-
-border-color: #0066A2;
-
-height: 50px;
-
-width: 100px;
-
-font: bold 15px arial, sans-serif;
-
-text-shadow:none;
-
+::-webkit-input-placeholder{
+  font-family: Candara;
 }

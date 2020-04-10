@@ -28,24 +28,20 @@
 	text-align: center;
 	margin: 100px;
 	font-size: 50px;
-	font-family: Verdana;
-	transform: rotateX(20deg);
 }
 
 .allen{
 	background-color: #F4F4F4;
-	font-family: Verdana;
-	padding: 100px 100px;
+	padding: 50px 100px;
 	margin: 20px 100px;
-	height: 250px;
+	height: 400px;
 }
 
 .richard{
   background-color: #F4F4F4;
-  font-family: Verdana;
-  padding: 100px 100px;
+  padding: 50px 100px;
   margin: 20px 100px;
-  height: 250px;
+  height: 400px;
 }
 #richardimage{
  float: left;
@@ -58,4 +54,17 @@
   width: 200px; 
   height: auto;
 
+}
+.wholepage{
+  font-family: Candara;
+}
+
+.bio{
+  padding-left: 300px;
+}
+#titleAllen{
+  font-size: 35px;
+}
+#titleRichard{
+  font-size: 35px;
 }
