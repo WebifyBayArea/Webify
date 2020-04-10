@@ -6,6 +6,7 @@
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	</head>
 	<body>
+
 		<div class = "topnav">
       <a href="template.html">Home</a>
       <a href="services.html">Services</a>
@@ -16,8 +17,9 @@
 		  <h1 id="header">CONTACT US</h1>
       <p> webify.usa@gmail.com </p>
       <p> 408-123-4567</p>
+      <!--
       <form>
-      	<input class="forminput" type="text" style="padding-left:12px" required="" placeholder="Name" maxlength="100">
+      	<input class="forminput" type="text" style="padding-left:12px" required="" placeholder="Name" maxlength="100" id = "namefield">
       	<input class="forminput" type="text" style="padding-left:12px" required="" placeholder="Email" maxlength="100">
         <br>
     		<input class="forminput" type="text" style="padding-left:12px" required="" placeholder="Phone" maxlength="100">
@@ -25,8 +27,36 @@
         <br>
       	<textarea rows="6" cols="46" id="message" placeholder="Type your message here..."></textarea>
         <br>
-      	<input id = "submitbutton" type="submit" value="Submit">
+      	<input onclick = "writeData()" id = "submitbutton" type="submit" value="Submit">
       </form>
+    -->
+    <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Company</label>
+            <input type="text" name="company" id="company">
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="text" name="phone" id="phone">
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
     </div>
+      <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+      <script src="main.js"></script>
 	</body>
 </html>

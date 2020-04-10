@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+   <script>
+     // Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyD0T5nYoEvPbc594yZyHBMFCZAVk2BGVi8",
+    authDomain: "webify-580df.firebaseapp.com",
+    databaseURL: "https://webify-580df.firebaseio.com",
+    projectId: "webify-580df",
+    storageBucket: "webify-580df.appspot.com",
+    messagingSenderId: "707986181733",
+    appId: "1:707986181733:web:fe7e63d5b783be0dba008c",
+    measurementId: "G-GX2562386W"
+    };
+
+
+  // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics(); 
+
+    function writeData(){
+      firebase.database().ref("User").set({
+      name: document.getElementByID("namefield").value,
+      age: document.getElementByID("ageField").value
+
+      })
+
+    }
+
+  </script>
+
+
+
+
+
+  <h1> User Database</h1>
+  <input type = "text" placeholder = "name" id = "nameField">
+  <input type = "text" placeholder = "age" id = "ageField">
+  <button onclick = "writeData()">Submit</button>
+
+
+</body>
+</html>
+
+
+
