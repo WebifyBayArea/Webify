@@ -58,3 +58,7 @@
 ::-webkit-input-placeholder{
   font-family: Candara;
 }
+#header{
+  font-size: 40px;
+  padding-bottom: 0px;
+}
