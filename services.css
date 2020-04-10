@@ -24,3 +24,8 @@
   background-color: #4CAF50;
   color: white;
 }
+#header{
+  text-align: center;
+  margin: 100px;
+  font-size: 50px;
+}
