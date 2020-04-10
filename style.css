@@ -80,3 +80,10 @@
 #contactus{
   font-size: 20px;
 }
+ul.offerlist{
+  list-style: none;
+}
+ul.offerlist li{
+  background: url("starBullet.JPG") left center no-repeat;
+  padding-left: 80px;
+}
