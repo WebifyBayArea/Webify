@@ -1,10 +1,9 @@
 //require('dotenv').config(); //THIS IS THE PROBLEM. "require is not defined"
 //var x = console.log(process.env.apiKey);
-var apiKey = "AIzaSyD0T5nYoEvPbc594yZyHBMFCZAVk2BGVi8"
 
 // Initialize Firebase (ADD YOUR OWN DATA)
 var config = {
-    apiKey: apiKey,
+    apiKey: "AIzaSyD0T5nYoEvPbc594yZyHBMFCZAVk2BGVi8",
     authDomain: "webify-580df.firebaseapp.com",
     databaseURL: "https://webify-580df.firebaseio.com",
     projectId: "webify-580df",
@@ -32,18 +31,8 @@ function submitForm(e){
   var phone = getInputVal('phone');
   var message = getInputVal('message');
 
-  // Save message
   saveMessage(name, company, email, phone, message);
 
-  // Show alert
-  document.querySelector('.alert').style.display = 'block';
-
-  // Hide alert after 3 seconds
-  setTimeout(function(){
-    document.querySelector('.alert').style.display = 'none';
-  },3000);
-
-  // Clear form
   document.getElementById('contactForm').reset();
 }
 
