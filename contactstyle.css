@@ -44,7 +44,7 @@
 #submitbutton {
   color: white;
   height: 50px;
-  font-family: Candara;
+  font-family: 'Raleway', sans-serif;
   text-shadow:none;
   margin-top: 20px;
   background: #050505;
@@ -83,11 +83,11 @@
   background: #656565;
 }
 .wholepage{
-  font-family: Candara;
+  font-family: 'Raleway', sans-serif;
 }
 
 ::-webkit-input-placeholder{
-  font-family: Candara;
+  font-family: 'Raleway', sans-serif;
 }
 #header{
   font-size: 40px;

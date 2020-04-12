@@ -64,8 +64,14 @@
   margin: 20px 100px;
   height: 400px;
 }
+.mike{
+  background-color: #F4F4F4;
+  padding: 50px 100px;
+  margin: 40px 100px;
+  height: 400px;
+}
 #richardimage{
- float: left;
+  float: left;
   width: 200px; 
   height: auto;
 }
@@ -74,10 +80,14 @@
   float: left;
   width: 200px; 
   height: auto;
-
+}
+#mikeimage{
+  float: left;
+  width: 200px; 
+  height: auto;
 }
 .wholepage{
-  font-family: Candara;
+  font-family: 'Raleway', sans-serif;
 }
 
 .bio{
@@ -87,6 +97,9 @@
   font-size: 35px;
 }
 #titleRichard{
+  font-size: 35px;
+}
+#titleMike{
   font-size: 35px;
 }
 .content{
