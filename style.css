@@ -44,7 +44,21 @@
 }
 #bigTitle{
   font-size: 70px;
-  -webkit-animation: titleanimation 2s;
+  position: relative;
+  animation: bigtitleanimation 2.5s 1;
+}
+@keyframes bigtitleanimation{
+  0%{
+    color: #F4F4F4;
+    top: 30px;
+  }
+  30%{
+    letter-spacing: 20px;
+    top:30px;
+  }
+  85%{
+    top: 0px;
+  }
 }
 
 #smallTitle{
@@ -101,7 +115,3 @@ ul.offerlist li{
   font-size: 30px;
 }
 
-@-webkit-keyframes titleanimation{
-  0% {font-size: 0px;}
-  100% {font-size: 70px;}
-}
