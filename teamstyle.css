@@ -4,6 +4,16 @@
   margin-right: auto;
   margin-bottom: 20px;
   margin-top: 40px;
+  width: 125px;
+  height: auto;
+}
+#template{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#contact{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 .navwrapper{
   text-align:center;
@@ -78,4 +88,17 @@
 }
 #titleRichard{
   font-size: 35px;
+}
+.content{
+  animation:transitionIn 2s;
+}
+@keyframes transitionIn{
+  from {
+    opacity:0;
+    transform: rotateX(-10deg);
+  }
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }

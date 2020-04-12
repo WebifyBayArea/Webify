@@ -1,13 +1,22 @@
 .wholepage{
 	font-family: Candara;
 }
-
+#template{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+#contact{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
 .logo{
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
   margin-top: 40px;
+  width: 125px;
+  height: auto;
 }
 .topnav {
   background-color: #FFFFFF;
@@ -52,7 +61,18 @@
 .page{
   background-color: #F4F4F4;
   padding-top: 30px;
+  animation: transitionIn 2s;
 }
 .content{
   padding: 30px 300px 200px 300px;
+}
+@keyframes transitionIn{
+  from {
+    opacity:0;
+    transform: rotateX(-10deg);
+  }
+  to{
+    opacity: 1;
+    transform: rotateX(0);
+  }
 }

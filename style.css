@@ -27,6 +27,11 @@
   color: black;
 }
 
+#contact:hover{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
@@ -80,7 +85,8 @@
     opacity:0;
     bottom: 40px;
   }
-  100%{
+  80%{
+    opacity:1;
     bottom: 0px;
   }
 }
