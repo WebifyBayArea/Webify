@@ -1,3 +1,6 @@
+body{
+  min-width: 1600px;
+}
 .logo{
   display: block;
   margin-left: auto;
