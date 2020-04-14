@@ -80,5 +80,6 @@ body{
   }
 }
 .text{
-  font-size: 30px;
+  font-size: 17px;
+  font-family: "Arial", Times, serif;
 }
