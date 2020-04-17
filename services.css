@@ -70,6 +70,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     min-width: 400px;
+    justify-content: center;
 }
 @keyframes transitionIn{
   from {
