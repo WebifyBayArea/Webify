@@ -1,5 +1,5 @@
-body{
-  min-width: 1600px;
+* {
+    box-sizing: border-box;
 }
 .logo{
   display: block;
@@ -103,24 +103,30 @@ body{
 }
 
 .offerContact{
-  margin:0px;
-  background-color: #E1EFF2;
+    margin:0px;
+    padding: 0px;
+    background-color: #E1EFF2;
 }
 
 .offer{
   margin:0px;
-  padding-top: 20px;
-  padding-right: 200px;
-  text-align: right;
-  padding-bottom: 200px;
+  padding: 50px 0px;
+  text-align: center;
+  background-color: #E1EFF2;
+  display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  align-items: center;
 }
-#whatweoffer{
-  margin-top:100px;
-  margin-bottom: 0px;
+
+.offer p{
+    font-size: 25px;
+    padding: 0px 15%;
+}
+#aboutus{
   font-size: 60px;
-  padding-right: 50px;
-
-
+  padding: 0px;
+  margin: 0px;
 }
 #offerlist{
   padding-right: 120px;
