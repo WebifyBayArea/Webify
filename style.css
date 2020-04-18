@@ -136,14 +136,18 @@ html {
 }
 
 .offer{
-    margin: 30px;
+  margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.6;
+  opacity: 0.8;
+  width: 100%;
+  background-position: center;
+  position: center;
+  color: black;
   margin:0px;
   padding: 50px 0px;
   text-align: center;
-  background-color: #E1EFF2;
+  /*background-color: #E1EFF2;*/
   display: flex;
     flex-wrap: wrap;
     flex-direction: column;
