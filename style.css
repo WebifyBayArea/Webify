@@ -10,7 +10,7 @@ html {
 
 #theimage {
   background-image: url('file:///Users/michaelpeng/Desktop/Webify/beanshot.png');
-  background-color: transparent;
+  /*background-color: transparent;*/
   background-position: center;
     width: 100%;
   height: 100%;
@@ -37,7 +37,7 @@ html {
 .topnav {
   margin: 30px;
   background-color: #ffffff;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   opacity: 0.6;
   overflow: hidden;
   display: inline-block;
@@ -76,8 +76,12 @@ html {
 
 }
 .header {
+    margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
   text-align: center;
-  background-color: #F4F4F4;
+  /*background-color: #F4F4F4;*/
   padding-bottom: 60px;
   padding-top: 20px;
   margin: 0px;
