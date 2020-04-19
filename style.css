@@ -134,11 +134,13 @@ html {
 }
 #frontimage{
   float: left;
-  width: 650px; 
+  width: 700px; 
   height: auto;
-  position: absolute;
+  position: center;
   left: 30px;
-  top: 900px;
+  top: 300px;
+  /*bottom: 300px;*/
+  padding-bottom: 50px;
 }
 
 .offerContact{
