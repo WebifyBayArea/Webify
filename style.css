@@ -9,12 +9,12 @@ html {
 /*style="background-image: url('file:///Users/michaelpeng/Desktop/Webify/beanshot.png');*/
 
 #theimage {
-  background-image: url('file:///Users/michaelpeng/Desktop/Webify/beanshot.png');
+  background-imag/*e*/: url('file:///Users/michaelpeng/Desktop/Webify/beanshot.png');
   /*background-color: transparent;*/
-  background-position: center;
-    width: 100%;
-  height: 100%;
-  color: white;
+  /*background-position: center;*/
+    /*width: 100%;*/
+  /*height: 100%;*/
+  /*color: white;*/
 
 }
 /* Optional: show position indicator in red */
@@ -38,7 +38,7 @@ html {
   margin: 30px;
   background-color: #ffffff;
   /*border: 1px solid black;*/
-  opacity: 0.6;
+  /*opacity: 0.6;*/
   overflow: hidden;
   display: inline-block;
   padding-bottom: 40px;
@@ -79,7 +79,7 @@ html {
     margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
-  opacity: 0.8;
+  /*opacity: 0.8;*/
   text-align: center;
   /*background-color: #F4F4F4;*/
   padding-bottom: 60px;
@@ -142,8 +142,8 @@ html {
 .offer{
   margin: 30px;
   background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.8;
+  /*border: 1px solid black;*/
+  /*opacity: 0.8;*/
   width: 100%;
   background-position: center;
   position: center;
