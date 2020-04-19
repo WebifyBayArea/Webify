@@ -43,7 +43,7 @@
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #0097d5;
   color: white;
 }
 #header{
@@ -57,7 +57,8 @@
     min-width: 400px;
 }
 .page{
-  background-color: #F4F4F4;
+  
+  background-color: #0097d5;
   padding-top: 30px;
   animation: transitionIn 2s;
     display: flex;

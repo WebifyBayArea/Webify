@@ -12,6 +12,7 @@ html {
 
 #theimage {
   background-imag/*e*/: url('file:///Users/michaelpeng/Desktop/Webify/beanshot.png');
+  background-color: #0097d5;
   /*background-position: center;*/
     /*width: 100%;*/
   /*height: 100%;*/
@@ -23,9 +24,7 @@ html {
     background: #FF0000;
 }
 .gradient{
-    background-color: #0097d5;
-
-    /*\background: linear-gradient(to bottom, #000080, #F5FFFA );*/
+    /*background: linear-gradient(to bottom, #000080, #F5FFFA );*/
 
 }
 * {
@@ -43,6 +42,7 @@ html {
   right:0.5%;
 }
 .topnav {
+
   /*background-color: #ffffff;*/
   /*border: 1px solid black;*/
   /*opacity: 0.6;*/
@@ -52,7 +52,7 @@ html {
 }
 .topnav a {
   float: left;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -83,7 +83,7 @@ html {
 
 }
 .header {
-  margin: 30px;
+  margin: -10px;
   background-color: #ffffff;
   /*border: 1px solid black;*/
   /*opacity: 0.8;*/
@@ -91,7 +91,7 @@ html {
   /*background-color: #F4F4F4;*/
   padding-bottom: 60px;
   padding-top: 20px;
-  margin: 0px;
+  margin: -10px;
 }
 #bigTitle{
   color: white;
@@ -134,9 +134,15 @@ html {
   }
 }
 #frontimage{
-  width: 50%; 
+  float: left;
+  width: 700px; 
   height: auto;
+  position: center;
+  left: 30px;
+  top: 300px;
   /*bottom: 300px;*/
+  padding-bottom: 100px;
+
 }
 
 .offerContact{
@@ -146,50 +152,27 @@ html {
 }
 
 .offer{
-/*  margin: 30px;*/
+  margin: -30px;
   /*border: 1px solid black;*/
   /*opacity: 0.8;*/
-/*  width: 100%;*/
-/*
+  width: 100%;
   background-position: center;
   position: center;
-*/
-    height: 600px;
-    width: 90%;
-    margin: 0 auto;
   color: white;
+  margin:0px;
   padding: 50px 0px;
   text-align: center;
   /*background-color: #E1EFF2;*/
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+   flex-direction: column;
+  align-items: center;
 }
-.text{
-    margin: 0;
-    width: 40%;
-    height: 80%;
-}
-@media screen and (max-width: 1200px){
-    .offer{
-        height: 800px;
-        width: 600px;
-        align-items: center;
-    }
-    .text{
-        margin: 0;
-        width: 80%;
-        height: 300px;
-    }
-    #frontimage{
-        width: 70%;
-        margin-bottom: 30px;
-    }
-}
-
 
 .offer p{
+
     font-size: 25px;
+    padding: 0px 15%;
 }
 #aboutus{
   /*font-family: "Times New Roman", Times, serif;*/
