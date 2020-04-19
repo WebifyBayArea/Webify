@@ -1,6 +1,8 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
+    height:250%;
+
 }
 ::-webkit-scrollbar {
     width: 0px;  /* Remove scrollbar space */
@@ -21,8 +23,8 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
-body{
-    background: linear-gradient(to bottom, #000080, #FFF0F5);
+.gradient{
+    background: linear-gradient(to bottom, #000080, #F5FFFA );
 
 }
 * {
@@ -40,7 +42,6 @@ body{
   right:0.5%;
 }
 .topnav {
-  margin: 30px;
   background-color: #ffffff;
   /*border: 1px solid black;*/
   /*opacity: 0.6;*/
@@ -83,7 +84,7 @@ body{
 .header {
   margin: 30px;
   background-color: #ffffff;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   /*opacity: 0.8;*/
   text-align: center;
   /*background-color: #F4F4F4;*/
@@ -92,7 +93,7 @@ body{
   margin: 0px;
 }
 #bigTitle{
-  color: #FFE4E1;
+  color: white;
   font-size: 70px;
   position: relative;
   animation: bigtitleanimation 2.5s 1;
@@ -112,7 +113,7 @@ body{
 }
 
 #smallTitle{
-  color: #FFF5EE;
+  color: white;
   font-size: 30px;
   position: relative;
   animation: smalltitleanimation 3.5s 1;
@@ -135,9 +136,9 @@ body{
   float: left;
   width: 650px; 
   height: auto;
-  position: relative;
+  position: absolute;
   left: 30px;
-  top: 30px;
+  top: 900px;
 }
 
 .offerContact{
@@ -148,7 +149,6 @@ body{
 
 .offer{
   margin: 30px;
-  background-color: #ffffff;
   /*border: 1px solid black;*/
   /*opacity: 0.8;*/
   width: 100%;
@@ -160,8 +160,8 @@ body{
   text-align: center;
   /*background-color: #E1EFF2;*/
   display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
+  flex-wrap: wrap;
+   flex-direction: column;
   align-items: center;
 }
 
