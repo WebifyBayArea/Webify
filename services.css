@@ -1,4 +1,12 @@
 
+/*hello*/
+/*hello*/
+/*hello*/
+/*hello*/
+/*hello*/
+/*hello*/
+/*hello*/
+
 .wholepage{
 	font-family: 'Raleway', sans-serif;
 }
@@ -9,6 +17,9 @@
 #contact{
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+}
+* {
+    box-sizing: border-box;
 }
 .logo{
   display: block;
@@ -43,7 +54,7 @@
 }
 
 .topnav a.active {
-  background-color: #0097d5;
+  background-color: #4CAF50;
   color: white;
 }
 #header{
@@ -57,13 +68,17 @@
     min-width: 400px;
 }
 .page{
-  
+
   background-color: #0097d5;
-  padding-top: 30px;
+  margin-right: -9px;
+  margin-left: -9px;
+  /*padding-top: 30px;*/
   animation: transitionIn 2s;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items:center;*/
+
+    color: white;
 }
 .content{
   padding: 10px 15%;
@@ -89,4 +104,18 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   /*font-family: "Arial", Times, serif;*/
+}
+
+.featuredImages {
+/*width: 100%;*/
+  /*border-color: black;*/
+  /*width: 1000px;*/
+  justify-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+   flex-direction: row;
+}
+.featuredImages img{
+
+  margin: 0;
 }
