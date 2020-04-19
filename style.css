@@ -134,14 +134,9 @@ html {
   }
 }
 #frontimage{
-  float: left;
-  width: 700px; 
+    width: 50%;
   height: auto;
-  position: center;
-  left: 30px;
-  top: 300px;
   /*bottom: 300px;*/
-  padding-bottom: 100px;
 
 }
 
@@ -152,27 +147,43 @@ html {
 }
 
 .offer{
-  margin: -30px;
   /*border: 1px solid black;*/
   /*opacity: 0.8;*/
-  width: 100%;
-  background-position: center;
-  position: center;
   color: white;
-  margin:0px;
   padding: 50px 0px;
   text-align: center;
   /*background-color: #E1EFF2;*/
+    height: 600px;
+    width: 90%;
+    margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
    flex-direction: column;
-  align-items: center;
 }
-
+.text{
+    margin: 0;
+    width: 40%;
+    height: 80%;
+}
+@media screen and (max-width: 1200px){
+    .offer{
+        height: 800px;
+        width: 600px;
+        align-items: center;
+    }
+    .text{
+        margin: 0;
+        width: 80%;
+        height: 300px;
+    }
+    #frontimage{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+}
 .offer p{
 
     font-size: 25px;
-    padding: 0px 15%;
 }
 #aboutus{
   /*font-family: "Times New Roman", Times, serif;*/
