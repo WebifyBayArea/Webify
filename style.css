@@ -22,7 +22,7 @@ html {
     background: #FF0000;
 }
 body{
-    background: linear-gradient(to bottom, #20B2AA, #E0FFFF);
+    background: linear-gradient(to bottom, #000080, #FFF0F5);
 
 }
 * {
@@ -30,12 +30,14 @@ body{
 }
 .logo{
   display: block;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
   margin-top: 40px;
   width: 125px;
   height: auto;
+  right:0.5%;
 }
 .topnav {
   margin: 30px;
@@ -79,7 +81,7 @@ body{
 
 }
 .header {
-    margin: 30px;
+  margin: 30px;
   background-color: #ffffff;
   border: 1px solid black;
   /*opacity: 0.8;*/
@@ -90,6 +92,7 @@ body{
   margin: 0px;
 }
 #bigTitle{
+  color: #FFE4E1;
   font-size: 70px;
   position: relative;
   animation: bigtitleanimation 2.5s 1;
@@ -109,6 +112,7 @@ body{
 }
 
 #smallTitle{
+  color: #FFF5EE;
   font-size: 30px;
   position: relative;
   animation: smalltitleanimation 3.5s 1;
@@ -171,7 +175,7 @@ body{
   font-size: 60px;
   padding: 0px;
   margin: 0px;
-    min-width: 400px;
+  min-width: 400px;
 }
 #offerlist{
   padding-right: 120px;
