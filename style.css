@@ -27,6 +27,7 @@ html {
   /*background-color: #0097d5;*/
   margin-right: -9px;
   margin-left: -9px;
+
   margin-bottom:-10px;
 
 }
@@ -137,8 +138,9 @@ html {
   }
 }
 #frontimage{
-    width: 50%;
+    width: 35%;
   height: auto;
+  justify-content: center;
   /*bottom: 300px;*/
 
 }
@@ -164,12 +166,15 @@ html {
    flex-direction: column;
 }
 .text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
     margin: 0;
     width: 40%;
     height: 80%;
 }
 @media screen and (max-width: 1200px){
     .offer{
+
         height: 800px;
         width: 600px;
         align-items: center;
