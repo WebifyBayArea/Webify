@@ -21,7 +21,10 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #FF0000;
 }
+body{
+    background: linear-gradient(to bottom, #20B2AA, #E0FFFF);
 
+}
 * {
     box-sizing: border-box;
 }
