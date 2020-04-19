@@ -1,7 +1,7 @@
 html {
     overflow: scroll;
     overflow-x: hidden;
-    height:250%;
+    /*height:250%;*/
 
 }
 ::-webkit-scrollbar {
