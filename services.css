@@ -17,6 +17,15 @@
 * {
     box-sizing: border-box;
 }
+.gradient{
+  position: absolute;
+  background: linear-gradient(to bottom, #000000, #00008B );*/
+  /*background-color: #0097d5;*/
+  margin-right: -9px;
+  margin-left: -9px;
+
+
+}
 .logo{
   display: block;
   margin-left: auto;
@@ -64,9 +73,14 @@
     min-width: 400px;
 }
 .page{
-  background-color: #0097d5;
+  position: absolute;
+  background: linear-gradient(to bottom, #000000, #00008B );*/
+  /*background-color: #0097d5;*/
   margin-right: -9px;
   margin-left: -9px;
+  /*background-color: #0097d5;*/
+  /*margin-right: -9px;*/
+  /*margin-left: -9px;*/
   /*padding-top: 30px;*/
   animation: transitionIn 2s;
     /*display: flex;*/
@@ -112,6 +126,8 @@
    flex-direction: row;
 }
 .featuredImages img{
+  padding-left: 50px;
+  padding-right: 50px;
 
   margin: 0;
 }
