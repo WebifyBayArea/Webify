@@ -3,6 +3,8 @@
 }
 
 html{
+    overflow: scroll;
+    overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,7 +22,6 @@ html{
     margin-top: 40px;
     width: 125px;
     height: auto;
-    right: 0.5%;
 }
 
 .navwrapper{
@@ -64,7 +65,6 @@ html{
 .page{
     position: absolute;
     background: linear-gradient(to bottom, #000000, #00008B );
-    margin-right: -9px;
     margin-left: -9px;
     animation: transitionIn 2s;
     /*display: flex;*/

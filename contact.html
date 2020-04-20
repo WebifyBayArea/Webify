@@ -1,51 +1,39 @@
 <!DOCTYPE html>
-<html class="wholepage">
-	<head>
+<html>
+    <head>
 		<title>Contact | Webify</title>
 		<link rel="stylesheet" type="text/css" href="contactstyle.css">
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
 	<body>
-    <img class="logo" src="images/WebifyWebsiteLogo.png">
-    <hr width="50%">
-    <div class="navwrapper">
-  		<div class = "topnav">
-        <a id="template" href="index.html">Home</a>
-        <a href="services.html">Services</a>
-        <a href="team.html">The Team</a>
-        <a class = "active" href="contact.html">Contact</a>
-      </div>
-    </div>
-    <div class="contactpage">
-		  <h1 id="header">Contact Us!</h1>
-      <p> webify.usa@gmail.com </p>
-      <p> 408-123-4567</p>
-      <!--
-      <form>
-      	<input class="forminput" type="text" style="padding-left:12px" required="" placeholder="Name" maxlength="100" id = "namefield">
-      	<input class="forminput" type="text" style="padding-left:12px" required="" placeholder="Email" maxlength="100">
-        <br>
-    		<input class="forminput" type="text" style="padding-left:12px" required="" placeholder="Phone" maxlength="100">
-     	 	<input class="forminput" type="text" style="padding-left:12px" required="" placeholder="Address" maxlength="100">
-        <br>
-      	<textarea rows="6" cols="46" id="message" placeholder="Type your message here..."></textarea>
-        <br>
-      	<input onclick = "writeData()" id = "submitbutton" type="submit" value="Submit">
-      </form>
-    -->
-      <form id="contactForm">
-        <input class="forminput" type="text" name="name" id="name" required style="padding-left: 12px" placeholder="Name" maxlength="100">
-        <input class="forminput" type="text" name="company" id="company" required style="padding-left: 12px" placeholder="Company/Organization" maxlength="100">
-        <br>
-        <input class="forminput" type="email" name="email" id="email" required style="padding-left: 12px" placeholder="Email" maxlength="100">
-        <input class="forminput" type="text" name="phone" id="phone" required style="padding-left: 12px" placeholder="Phone" maxlength="100">
-        <br>
-        <textarea name="message" rows="6" cols="46" id="message" placeholder="Type your message here..."></textarea>
-        <br>
-        <button type="submit" id="submitbutton">Submit</button>
-      </form>
-    </div>
-      <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
-      <script src="main.js"></script>
+        <img class="logo" src="images/WebifyWebsiteLogo.png">
+        <hr width="600px">
+        <div class="navwrapper">
+            <div class="topnav">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="team.html">The Team</a>
+                <a class="active" href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="contactpage">
+            <h1>Contact Us!</h1>
+            <p>webify.usa@gmail.com</p>
+            <p>408-123-4567</p>
+            <form>
+                <input type="text" name="name" required style="padding-left: 12px" placeholder="Name" maxlength="100">
+                <input type="text" name="company" required style="padding-left: 12px" placeholder="Company/Organization" maxlength="100">
+                <br>
+                <input type="text" name="email" required style="padding-left: 12px" placeholder="Email" maxlength="100">
+                <input type="text" name="phone" required style="padding-left: 12px" placeholder="Phone" maxlength="100">
+                <br>
+                <textarea type="text" name="message" rows="6" cols="49" placeholder="Type your message here..."></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+        <script src="main.js"></script>
 	</body>
 </html>

@@ -1,96 +1,120 @@
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    background: transparent;
+}
+
 .logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-top: 40px;
-  width: 125px;
-  height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 125px;
+    height: auto;
 }
-.topnav {
-  background-color: #FFFFFF;
-  overflow: hidden;
-  display: inline-block;
-  padding-bottom: 40px;
-}
-.topnav a {
-  float: left;
-  color: #050505;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: 17px;
-}
-#template:hover{
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
+
 .navwrapper{
-  text-align:center;
+    text-align: center;
+}
+
+.topnav{
+    background-color: #FFFFFF;
+    overflow: hidden;
+    display: inline-block;
+    padding-bottom: 40px;
+}
+
+.topnav a{
+    float: left;
+    color: #050505;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a:first-child:hover{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .topnav a.active {
-  background: linear-gradient(#000000, #00008B );
-  color: white;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+    background: linear-gradient(#000000, #00008B );
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
-#submitbutton {
-  color: white;
-  height: 50px;
-  font-family: 'Raleway', sans-serif;
-  text-shadow:none;
-  margin-top: 20px;
-  background: #050505;
-  border: 0;
-  width: 360px;
-  font-size: 20px;
-}
 .contactpage{
-  background-color: #F4F4F4;
-  padding: 40px 200px 100px 200px;
-  text-align: center;
-  animation: transitionIn 2s;
+    background: linear-gradient(#000000, #00008B );
+    padding: 40px 200px 100px 200px;
+    text-align: center;
+    animation: transitionIn 2s;
+    margin: 0 -9px;
+    color: white;
 }
+
 @keyframes transitionIn{
-  from {
-    opacity:0;
-    transform: rotateX(-10deg);
-  }
-  to{
-    opacity: 1;
-    transform: rotateX(0);
-  }
+    from{
+        opacity:0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
-.forminput{
-  padding: 10px 5px;
-  margin: 10px 5px;
-  border: 0;
+
+.contactpage h1{
+    font-size: 40px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
-#message{
-  resize: none;
-  margin-top: 5px;
-  border: 0;
-  padding: 10px 10px;
-}
-#submitbutton:hover{
-  background: #656565;
-}
-.wholepage{
-  font-family: 'Raleway', sans-serif;
+
+.contactpage form input{
+    padding: 10px 5px;
+    margin: 10px 5px;
+    border: 0;
 }
 
 ::-webkit-input-placeholder{
-  font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-#header{
-  font-size: 40px;
-  padding-bottom: 0px;
-    margin: 0px;
+
+input[type="text"]{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contactpage form textarea{
+    resize: none;
+    margin-top: 5px;
+    border: 0;
+    padding: 10px 10px;
+}
+
+.contactpage form button{
+    color: white;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: none;
+    margin-top: 20px;
+    background: #050505;
+    border: 0;
+    width: 385px;
+    font-size: 20px;
+}
+
+.contactpage form button:hover{
+    background: #656565;
 }
