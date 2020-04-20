@@ -63,7 +63,7 @@ html{
     background: linear-gradient(to bottom, #000000, #00008B);
     margin-right: -9px;
     margin-left: -9px;
-    z-index: 50;
+    margin-bottom: 200px;
 }
 
 .header{
@@ -181,8 +181,9 @@ html{
     position: absolute;
     left: 0;
     right: 0;
-    bottom: -500px;
-    top: 1150px;
+    bottom: 0;
+    top: 2000px;
+    height: 200px;
     margin: auto;
 }
 .waveWrapperInner {
@@ -191,7 +192,7 @@ html{
     overflow: hidden;
     height: 100%;
     bottom: -1px;
-    background-image: linear-gradient(to top, #00008B 20%, #000000 80%);
+    background-image: linear-gradient(to top, #000000 20%, #00008B 80%);
 }
 .bgTop {
     z-index: 15;
