@@ -1,75 +1,99 @@
 * {
     box-sizing: border-box;
 }
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .logo{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-top: 40px;
-  width: 125px;
-  height: auto;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    width: 125px;
+    height: auto;
+    right: 0.5%;
 }
-#template{
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-#contact{
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
+
 .navwrapper{
-  text-align:center;
-}
-.topnav {
-  background-color: #FFFFFF;
-  overflow: hidden;
-  display: inline-block;
-  padding-bottom: 40px;
-}
-.topnav a {
-  float: left;
-  color: #050505;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-size: 17px;
+    text-align: center;
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.topnav{
+    background-color: #FFFFFF;
+    overflow: hidden;
+    display: inline-block;
+    padding-bottom: 40px;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background: linear-gradient(#000000, #00008B );
-  color: white;
-}
-#header{
-	text-align: center;
-  margin-top:30px;
-	font-size: 50px;
+.topnav a{
+    float: left;
+    color: #050505;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-.namepic{
-    flex: 1;
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
 }
 
-.allen{
-      background-color: #F0F8FF;
+.topnav a.active{
+    background: linear-gradient(#000000, #00008B );
+    color: white;
+}
 
-	background-color: #F4F4F4;
-	padding: 0px 5%;
-	margin: 0px 5% 40px 5%;
+.topnav a:first-child{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.topnav a:last-child{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.content{
+    animation:transitionIn 2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity:0;
+        transform: rotateX(-10deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+.content h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.teammember{
+    background-color: #F4F4F4;
+    padding: 0px 5%;
+    margin: 0px 5% 40px 5%;
     height: 350px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
-.allen:last-child{
+
+.teammember:last-child{
     background-color: #F4F4F4;
 	padding: 0px 5%;
 	margin: 0px 5% 40px 5%;
@@ -79,81 +103,38 @@
     flex-direction: column;
     align-items: center;
 }
-.richard{
-  background-color: #F4F4F4;
-  padding: 50px 100px;
-  margin: 20px 100px;
-  height: 400px;
-}
-.mike{
-  background-color: #F4F4F4;
-  padding: 50px 100px;
-  margin: 40px 100px;
-  height: 400px;
-}
-#richardimage{
-  float: left;
-  width: 200px; 
-  height: auto;
-}
 
-#allenimage{
-  float: left;
-  width: 200px; 
-  height: auto;
-}
-#mikeimage{
-  float: left;
-  width: 200px;
-  height: auto;
-}
-.wholepage{
-  font-family: 'Raleway', sans-serif;
-}
-
-.bio{
-/*  padding-left: 300px;*/
+.teammember p{
     width: 70%;
     padding: 100px 5% 0px 5%;
     font-size: 20px
     
 }
-.titleAllen{
-  font-size: 30px;
+
+.namepic{
+    flex: 1;
+}
+
+.namepic h3{
+    font-size: 30px;
     text-align: center
 }
-#titleRichard{
-  font-size: 35px;
-}
-#titleMike{
-  font-size: 35px;
-}
-.content{
-  animation:transitionIn 2s;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-@keyframes transitionIn{
-  from {
-    opacity:0;
-    transform: rotateX(-10deg);
-  }
-  to{
-    opacity: 1;
-    transform: rotateX(0);
-  }
+
+.namepic img{
+    float: left;
+    width: 200px; 
+    height: auto;
 }
 
 @media screen and (max-width: 650px){
-    .allen{
+    .teammember{
         height: 540px;
         align-items: center;
     }
-    .allen:last-child{
+    .teammember:last-child{
         height: 700px;
     }
-    .bio{
+    .teammember p{
         text-align: center;
         margin: 0 0 30px 0;
         padding: 0
