@@ -35,7 +35,7 @@
 }
 
 .topnav a.active {
-  background-color: #4CAF50;
+  background: linear-gradient(#000000, #00008B );
   color: white;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;

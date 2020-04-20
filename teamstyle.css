@@ -44,7 +44,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background: linear-gradient(#000000, #00008B );
   color: white;
 }
 #header{
