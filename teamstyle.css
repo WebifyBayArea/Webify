@@ -115,8 +115,8 @@ html{
 .teammember p{
     width: 70%;
     padding: 100px 5% 0px 5%;
+    padding-top: 70px;
     font-size: 20px
-    
 }
 
 .namepic{
@@ -138,6 +138,9 @@ html{
     .teammember{
         height: 540px;
         align-items: center;
+    }
+    .teammember:nth-child(2){
+        height: 600px;
     }
     .teammember:last-child{
         height: 700px;
