@@ -121,6 +121,10 @@ input[type="text"]{
     background: #656565;
 }
 
+.name {
+    width: 50px;
+}
+
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)

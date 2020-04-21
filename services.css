@@ -118,6 +118,12 @@ html{
 .text{
     font-size: 17px;
     width: 80%;
+    /* align-: center; */
+}
+.centerText{
+    font-size: 17px;
+    width: 80%;
+    text-align: center;
 }
 
 .featuredImages{
