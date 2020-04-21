@@ -160,35 +160,35 @@ html{
   
 .animatedImage1 {
     width: 370px;
+    height: 250px;
     transition: transform 2s;
     display: block;
     /* width: 100%; */
-    height: auto;
 }
 
 .animatedImage2 {
     transition: transform 2s;
     display: block;
     width: 370px;
-    height: auto;
+    height: 250px;
+
 }
 
 .animatedImage3 {
     transition: transform 2s;
     display: block;
     width: 370px;
-    height: auto;
+    height: 250px;
 }
 
 .overlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
+    top: -15px;
+    bottom: -14px;
+    left: -3px;
     right: 0;
     height: auto;
     /* padding: 50px; */
-    width: 335px;
     /* padding-left: 50px; */
     opacity: 0;
     transition: 0.5s ease;
@@ -197,11 +197,12 @@ html{
 
 .container:hover img {
     transition: 1s ease;
-    transform: scale(1.2);
+    transform: scale(1.1);
 } 
 
 .container:hover .overlay {
     opacity: 0.5;
+    width: 375px;
 }
 
 .text1 {
