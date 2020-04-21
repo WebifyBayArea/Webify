@@ -72,7 +72,7 @@ html{
     /*align-items:center;*/
     color: white;
     margin-bottom: -10px;
-    height: 1650px;
+    height: 1700px;
 }
 
 @keyframes transitionIn{
@@ -112,6 +112,10 @@ html{
 .text{
     font-size: 17px;
 }
+.bottomText{
+    font-size: 17px;
+    /* padding-bottom: 100px; */
+}
 
 .featuredImages{
 
@@ -133,19 +137,50 @@ html{
 }
 
 
+.hello {
+    justify-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
+}
+
+.hello img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .container {
+    
+    
     position: relative;
-    width: 100%;
+    width: 50%;
   }
   
-  .animatedImage {
-    
+  .animatedImage1 {
+    width: 370px;
     transition: transform 2s;
     display: block;
-    width: 50%;
+    /* width: 100%; */
     height: auto;
   }
   
+  .animatedImage2 {
+    
+    transition: transform 2s;
+    display: block;
+    width: 370px;
+    height: auto;
+  }
+
+  .animatedImage3 {
+    
+    transition: transform 2s;
+    display: block;
+    width: 370px;
+    height: auto;
+  }
+
   .overlay {
     position: absolute;
     top: 0;
@@ -154,7 +189,8 @@ html{
     right: 0;
     height: auto;
     /* padding: 50px; */
-    width: 100%;
+    width: 335px;
+    /* padding-left: 50px; */
     opacity: 0;
     transition: 0.5s ease;
     background-color: black;
