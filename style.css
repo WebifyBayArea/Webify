@@ -149,23 +149,6 @@ html{
     font-size: 25px;
 }
 
-@media screen and (max-width: 1200px){
-    .offer{
-        height: 1000px;
-        width: 100%px;
-        align-items: center;
-    }
-    .text{
-        margin: 0;
-        width: 80%;
-        height: 300px;
-    }
-    .offer img{
-        width: 70%;
-        margin-bottom: 30px;
-    }
-}
-
 @keyframes move_wave {
     0% {
         transform: translateX(0) translateZ(0) scaleY(1)
@@ -183,10 +166,10 @@ html{
     left: 0;
     right: 0;
     bottom: 0;
-    top: 2000px;
+    top: 2030px;
     height: 200px;
     margin: auto;
-    width: 1600px
+    width: 1600px;
 }
 .waveWrapperInner {
     position: absolute;
@@ -236,4 +219,24 @@ html{
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
+}
+
+@media screen and (max-width: 1200px){
+    .offer{
+        height: 1100px;
+        width: 100%px;
+        align-items: center;
+    }
+    .text{
+        margin: 0;
+        width: 80%;
+        height: 300px;
+    }
+    .offer img{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .waveWrapper{
+        top: 3000px;
+    }
 }
