@@ -73,6 +73,7 @@ html{
     align-items: center;
     background: linear-gradient(#000000, #00008B );
     margin: 0 -9px;
+    margin-bottom: 200px;
 }
 
 @keyframes transitionIn{
