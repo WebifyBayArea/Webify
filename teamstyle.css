@@ -73,7 +73,8 @@ html{
     align-items: center;
     background: linear-gradient(#000000, #00008B );
     margin: 0 -9px;
-    margin-bottom: 200px;
+    overflow: auto;
+    margin-bottom: 190px;
 }
 
 @keyframes transitionIn{
@@ -150,14 +151,16 @@ html{
 }
 .waveWrapper {
     overflow: hidden;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
-    top: 2550px;
     height: 200px;
-    margin: auto;
+    margin-top: -200px;
+    margin-left: -9px;
+    margin-right: -9px;
     width: 1600px;
+    clear: both;
 }
 .waveWrapperInner {
     position: absolute;
@@ -224,8 +227,5 @@ html{
         text-align: center;
         margin: 0 0 30px 0;
         padding: 0
-    }
-    .waveWrapper{
-        top: 3950px;
     }
 }

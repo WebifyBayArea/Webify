@@ -63,16 +63,17 @@ html{
 }
 
 .page{
-    position: absolute;
     background: linear-gradient(to bottom, #000000, #00008B );
     margin-left: -9px;
+    margin-right: -9px;
     animation: transitionIn 2s;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items:center;*/
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: center;
     color: white;
-    margin-bottom: -10px;
-    height: 1700px;
+    overflow: auto;
+    margin-bottom: 190px;
 }
 
 @keyframes transitionIn{
@@ -101,20 +102,22 @@ html{
 }
 
 .content{
-    padding: 10px 15%;
+    width: 100%;
+    padding: 10px 0;
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     min-width: 400px;
-    justify-content: center;
+    align-content: center;
+}
+
+.content h2{
+    width: 80%;
 }
 
 .text{
     font-size: 17px;
-}
-.bottomText{
-    font-size: 17px;
-    /* padding-bottom: 100px; */
+    width: 80%;
 }
 
 .featuredImages{
@@ -151,37 +154,33 @@ html{
 }
 
 .container {
-    
-    
     position: relative;
     width: 50%;
-  }
+}
   
-  .animatedImage1 {
+.animatedImage1 {
     width: 370px;
     transition: transform 2s;
     display: block;
     /* width: 100%; */
     height: auto;
-  }
-  
-  .animatedImage2 {
-    
+}
+
+.animatedImage2 {
     transition: transform 2s;
     display: block;
     width: 370px;
     height: auto;
-  }
+}
 
-  .animatedImage3 {
-    
+.animatedImage3 {
     transition: transform 2s;
     display: block;
     width: 370px;
     height: auto;
-  }
+}
 
-  .overlay {
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -194,18 +193,18 @@ html{
     opacity: 0;
     transition: 0.5s ease;
     background-color: black;
-  }
+}
 
-  .container:hover img {
+.container:hover img {
     transition: 1s ease;
-      transform: scale(1.2);
-  } 
-  
-  .container:hover .overlay {
+    transform: scale(1.2);
+} 
+
+.container:hover .overlay {
     opacity: 0.5;
-  }
-  
-  .text1 {
+}
+
+.text1 {
     color: white;
     font-size: 20px;
     position: absolute;
@@ -215,7 +214,7 @@ html{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-  }
+}
 
 
 @keyframes move_wave {
@@ -231,14 +230,16 @@ html{
 }
 .waveWrapper {
     overflow: hidden;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
-    top: 1800px;
     height: 200px;
-    margin: auto;
+    margin-top: -200px;
+    margin-left: -9px;
+    margin-right: -9px;
     width: 1600px;
+    clear: both;
 }
 .waveWrapperInner {
     position: absolute;
