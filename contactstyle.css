@@ -101,6 +101,10 @@ input[type="text"]{
     font-family: 'Montserrat', sans-serif;
 }
 
+textarea[type="text"]{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .contactpage form textarea{
     resize: none;
     margin-top: 5px;
