@@ -52,6 +52,7 @@ html{
 .topnav a.active{
     background: linear-gradient(#000000, #00008B );
     color: white;
+
 }
 
 .topnav a:first-child{
@@ -75,6 +76,9 @@ html{
     margin: 0 -9px;
     overflow: auto;
     margin-bottom: 190px;
+    border: 1px solid red;
+    width: 110%;
+
 }
 
 @keyframes transitionIn{
