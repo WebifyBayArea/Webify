@@ -9,6 +9,10 @@ html{
     background: transparent;
 }
 
+body{
+    animation: transitionIn 2s;
+}
+
 .logo{
     display: block;
     margin-left: auto;
@@ -60,7 +64,6 @@ html{
     background: linear-gradient(#000000, #00008B );
     padding: 40px 200px 100px 200px;
     text-align: center;
-    animation: transitionIn 2s;
     margin: 0 -9px;
     margin-bottom: 190px;
     overflow: auto;

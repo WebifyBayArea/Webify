@@ -13,6 +13,10 @@ html{
     background: transparent;
 }
 
+body{
+    animation: transitionIn 2s;
+}
+
 .logo{
     display: block;
     position: relative;
@@ -68,7 +72,6 @@ html{
 .content{
     background-color: transparent;
     color: white;
-    animation: transitionIn 2s;
     display: flex;
     flex-direction: column;
     align-items: center;

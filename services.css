@@ -13,6 +13,10 @@ html{
     background: transparent;
 }
 
+body{
+    animation: transitionIn 2s;
+}
+
 .logo{
     display: block;
     position: relative;
@@ -66,7 +70,6 @@ html{
     background: linear-gradient(to bottom, #000000, #00008B );
     margin-left: -9px;
     margin-right: -9px;
-    animation: transitionIn 2s;
     display: flex;
     flex-direction: column;
     align-items:center;
