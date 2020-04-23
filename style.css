@@ -64,7 +64,8 @@ html{
     margin-right: -9px;
     margin-left: -9px;
     overflow: auto;
-/*    margin-bottom: 190px;*/
+    margin-bottom: 190px;
+    border: 2px solid white;
 }
 
 .header{
@@ -119,7 +120,7 @@ html{
     color: white;
     padding: 50px 0px;
     text-align: center;
-    height: 600px;
+    height: 500px;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -225,8 +226,8 @@ html{
 
 @media screen and (max-width: 1200px){
     .offer{
-        height: 1100px;
-        width: 100%px;
+        height:900px;
+        width: 100%;
         align-items: center;
     }
     .text{
