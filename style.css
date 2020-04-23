@@ -6,7 +6,6 @@ html{
     overflow: scroll;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
-    width: 100%;
 }
 
 ::-webkit-scrollbar{
