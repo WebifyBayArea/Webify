@@ -168,10 +168,11 @@ html{
     right: 0;
     bottom: 0;
     height: 200px;
-    margin-top: -200px;
     margin-left: -9px;
     margin-right: -9px;
-    width: 110%;
+    margin-top: -200px;
+    width: 105%;
+    border: 2px solid pink;
 }
 .waveWrapperInner {
     position: absolute;
