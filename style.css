@@ -61,11 +61,11 @@ html{
 
 .gradient{
     background: linear-gradient(to bottom, #000000, #00008B);
-    margin-right: -9px;
-    margin-left: -9px;
+    margin-right: -20px;
+    margin-left: -20px;
     overflow: auto;
     margin-bottom: 190px;
-/*    border: 2px solid white;*/
+    border: 2px solid pink;
 }
 
 .header{
@@ -172,7 +172,7 @@ html{
     margin-left: -9px;
     margin-right: -9px;
     margin-top: -200px;
-    width: 105%;
+    width: 102%;
 }
 .waveWrapperInner {
     position: absolute;
