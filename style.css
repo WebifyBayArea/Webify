@@ -64,8 +64,10 @@ html{
     margin-right: -20px;
     margin-left: -20px;
     overflow: auto;
+/*
     margin-bottom: 190px;
     border: 2px solid pink;
+*/
 }
 
 .header{
