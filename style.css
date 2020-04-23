@@ -6,6 +6,8 @@ html{
     overflow: scroll;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ::-webkit-scrollbar{
