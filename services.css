@@ -22,7 +22,8 @@ body{
 }
 
 .top{
-    width: 1510px;
+    width: 1520px;
+    margin: 0 -9px;
 }
 
 .logo{
