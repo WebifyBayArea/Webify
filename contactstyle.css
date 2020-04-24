@@ -87,10 +87,15 @@ body{
     margin: 0px;
 }
 
+.contactpage p{
+    font-size: 30px;
+}
+
 .contactpage form input{
-    padding: 10px 5px;
-    margin: 10px 5px;
+    padding: 15px 5px;
+    margin: 12px 10px;
     border: 0;
+    width: 240px;
 }
 
 ::-webkit-input-placeholder{
@@ -107,20 +112,20 @@ textarea[type="text"]{
 
 .contactpage form textarea{
     resize: none;
-    margin-top: 5px;
+    margin-top: 15px;
     border: 0;
     padding: 10px 10px;
 }
 
 .contactpage form button{
     color: white;
-    height: 50px;
+    height: 60px;
     font-family: 'Montserrat', sans-serif;
     text-shadow: none;
-    margin-top: 20px;
+    margin-top: 30px;
     background: #050505;
     border: 0;
-    width: 385px;
+    width: 500px;
     font-size: 20px;
 }
 
