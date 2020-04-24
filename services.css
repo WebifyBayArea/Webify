@@ -21,6 +21,10 @@ body{
     animation: transitionIn 2s;
 }
 
+.top{
+    width: 1510px;
+}
+
 .logo{
     display: block;
     position: relative;
