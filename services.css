@@ -94,17 +94,39 @@ body{
 .page h1{
     text-align: center;
     font-size: 50px;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
 }
 
+.listImage{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 13%;
+    padding-right: 20px;
+}
 .image{
     display: block;
     margin: 0px auto;
-    width: 60%;
+    width: 47%;
+    height: auto;
     min-width: 400px;
+    margin-right: 45%;
 }
 
+.first{
+    padding-left: 20px;
+    font-size: 23px;
+    /*width: 37%;*/
+    width: 610px;
+    word-wrap: break-word;
+    position: absolute;
+    text-align: left;
+    margin-left: 63%;
+    margin-top: -25%;
+}
 .content{
     width: 100%;
     padding: 10px 0;
@@ -113,31 +135,52 @@ body{
     flex-wrap: wrap;
     min-width: 400px;
     align-content: center;
+
 }
 
+/*
 .content h2{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     font-size: 30px;
+    text-align: center;
 }
 
-.text{
-    font-size: 17px;
+
+*/
+.second{
+    font-weight: 900;
+    padding-top: 80px;
+    font-size: 25px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 100px;
+}
+.text{
+    font-size: 18px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100px;
+        padding-bottom: 60px;
+
+}
+
+.text li{
+     line-height: 50px;
 }
 .centerText{
-    font-size: 17px;
+    font-size: 30px;
     width: 80%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 300%;
 }
 
 .featuredImages{
-
     justify-content: center;
     display: flex;
     flex-wrap: nowrap;
