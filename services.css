@@ -113,27 +113,39 @@ body{
     flex-wrap: wrap;
     min-width: 400px;
     align-content: center;
+
 }
 
+/*
 .content h2{
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     font-size: 30px;
+    text-align: center;
 }
 
+
+*/
+
 .text{
-    font-size: 17px;
+    font-size: 18px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 100px;
+}
+
+.text li{
+     line-height: 30px;
 }
 .centerText{
-    font-size: 17px;
+    font-size: 20px;
     width: 80%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-weight: 300%;
 }
 
 .featuredImages{
