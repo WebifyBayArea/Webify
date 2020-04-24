@@ -99,6 +99,13 @@ body{
 
 }
 
+.listImage{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 13%;
+}
 .image{
     display: block;
     margin: 0px auto;
