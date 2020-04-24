@@ -94,17 +94,31 @@ body{
 .page h1{
     text-align: center;
     font-size: 50px;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
 }
 
 .image{
     display: block;
     margin: 0px auto;
-    width: 60%;
+    width: 47%;
+    height: auto;
     min-width: 400px;
+    margin-right: 45%;
 }
 
+.first{
+    padding-left: 20px;
+    font-size: 23px;
+    /*width: 37%;*/
+    width: 610px;
+    word-wrap: break-word;
+    position: absolute;
+    text-align: left;
+    margin-left: 63%;
+    margin-top: -25%;
+}
 .content{
     width: 100%;
     padding: 10px 0;
@@ -127,20 +141,30 @@ body{
 
 
 */
-
+.second{
+    font-weight: 900;
+    padding-top: 80px;
+    font-size: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 100px;
+}
 .text{
     font-size: 18px;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     font-weight: 100px;
+        padding-bottom: 60px;
+
 }
 
 .text li{
-     line-height: 30px;
+     line-height: 50px;
 }
 .centerText{
-    font-size: 20px;
+    font-size: 30px;
     width: 80%;
     text-align: center;
     margin-left: auto;
@@ -149,7 +173,6 @@ body{
 }
 
 .featuredImages{
-
     justify-content: center;
     display: flex;
     flex-wrap: nowrap;
