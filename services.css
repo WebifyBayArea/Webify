@@ -3,27 +3,18 @@
 }
 
 html{
-/*
     overflow: scroll;
     overflow-x: hidden;
-*/
     font-family: 'Montserrat', sans-serif;
 }
 
-/*
 ::-webkit-scrollbar{
     width: 0px;
     background: transparent;
 }
-*/
 
 body{
     animation: transitionIn 2s;
-}
-
-.top{
-    width: 1520px;
-    margin: 0 -9px;
 }
 
 .logo{
@@ -79,6 +70,7 @@ body{
     background: linear-gradient(to bottom, #000000, #00008B );
     margin-left: -9px;
     margin-right: -9px;
+    padding-bottom: 40px;
 /*
     display: flex;
     flex-direction: column;
@@ -86,7 +78,7 @@ body{
     align-content: center;
 */
     color: white;
-    width: 1520px;
+/*    width: 1520px;*/
 /*    overflow: auto;*/
 /*    margin-bottom: 190px;*/
 }
@@ -107,34 +99,46 @@ body{
     font-size: 50px;
     padding-top: 80px;
     padding-bottom: 20px;
+}
 
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+/*    background: pink;*/
+    margin-bottom: 30px;
 }
 
 .listImage{
-    width: 500px;
+    width: 600px;
     height: auto;
-    position: absolute;
-    margin-left: 850px;
-    margin-top: 200px;
-    padding-right: 20px;
+/*    position: absolute;*/
+/*    margin-left: 850px;*/
+/*    margin-top: 200px;*/
+/*    padding-right: 20px;*/
 }
 .image{
     display: block;
     width: 600px;
     height: auto;
     min-width: 400px;
-    margin-left: 100px;
+/*    margin-left: 100px;*/
 }
 
 .first{
     font-size: 23px;
     /*width: 37%;*/
-    width: 610px;
-    word-wrap: break-word;
-    position: absolute;
+    width: 40%;
+/*    word-wrap: break-word;*/
+/*    position: absolute;*/
     text-align: left;
+/*
     margin-left: 800px;
     margin-top: -330px;
+*/
 }
 .content{
     width: 100%;
@@ -159,21 +163,35 @@ body{
 
 */
 .second{
-    font-weight: 900;
-    padding-top: 80px;
+/*    padding-top: 80px;*/
     font-size: 25px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
     font-weight: 100px;
+    padding-left: 20px;
+}
+.list {
+/*    background: yellow;*/
+    width: 50%;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+/*    background: pink;*/
 }
 .text{
     font-size: 18px;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
     font-weight: 100px;
-        padding-bottom: 60px;
+/*        padding-bottom: 60px;*/
+/*    background: pink;*/
 
 }
 
@@ -357,4 +375,35 @@ body{
 }
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
+}
+
+@media screen and (max-width: 1200px){
+    .container1{
+        justify-content: flex-start;
+        padding-bottom: 0px;
+/*        background: pink;*/
+        height: auto;
+    }
+    .first{
+        padding-top: 20px;
+        width: 80%;
+        text-align: center;
+    }
+    .image{
+        width: 55%;
+    }
+    .container2{
+        height: 500px;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+    }
+    .list{
+        width: 80%;
+        padding: 0;
+        margin: 0;
+    }
+    .listImage{
+        display: none;
+    }
 }
