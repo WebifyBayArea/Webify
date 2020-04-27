@@ -229,11 +229,12 @@ body{
 
 .hello {
     padding-top: 50px;
-    justify-content: center;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    
+    justify-content: center;
+/*    space-around: 20px;*/
+/*    background: pink;*/
 }
 
 .hello img {
@@ -243,7 +244,8 @@ body{
 
 .container {
     position: relative;
-    width: 50%;
+/*    width: 50%;*/
+/*    background: yellow;*/
 }
   
 .animatedImage1 {
