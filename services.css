@@ -393,7 +393,7 @@ body{
         width: 55%;
     }
     .container2{
-        height: 500px;
+        height: auto;
         margin: 0;
         padding: 0;
         justify-content: flex-start;

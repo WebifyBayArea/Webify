@@ -220,7 +220,7 @@ body{
 
 @media screen and (max-width: 650px){
     .teammember{
-        height: 540px;
+        height: 600px;
         align-items: center;
     }
     .teammember:nth-child(2){
