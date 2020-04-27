@@ -11,6 +11,7 @@ html{
 
 body{
     animation: transitionIn 2s;
+    margin-bottom: 0;
 }
 
 .logo{
