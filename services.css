@@ -165,7 +165,7 @@ body{
 */
 .second{
 /*    padding-top: 80px;*/
-    font-size: 25px;
+    font-size: 24px;
     width: 100%;
 /*    margin-left: auto;*/
 /*    margin-right: auto;*/
@@ -205,7 +205,6 @@ body{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-weight: 300%;
 }
 
 .featuredImages{
@@ -238,8 +237,10 @@ body{
 }
 
 .hello img {
+/*
     padding-left: 20px;
     padding-right: 20px;
+*/
 }
 
 .container {
@@ -249,7 +250,7 @@ body{
 }
   
 .animatedImage1 {
-    width: 370px;
+    width: 350px;
     height: 250px;
     transition: transform 2s;
     display: block;
@@ -259,7 +260,7 @@ body{
 .animatedImage2 {
     transition: transform 2s;
     display: block;
-    width: 370px;
+    width: 350px;
     height: 250px;
 
 }
@@ -267,7 +268,7 @@ body{
 .animatedImage3 {
     transition: transform 2s;
     display: block;
-    width: 370px;
+    width: 350px;
     height: 250px;
 }
 
