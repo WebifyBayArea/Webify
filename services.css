@@ -276,7 +276,7 @@ body{
     position: absolute;
     top: -15px;
     bottom: -14px;
-    left: -17px;
+    left: -18px;
     right: 0;
     height: auto;
     /* padding: 50px; */
@@ -292,7 +292,7 @@ body{
 
 .container:hover .overlay {
     opacity: 0.5;
-    width: 385px;
+    width: 386px;
 }
 
 .text1 {
