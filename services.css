@@ -123,9 +123,10 @@ body{
 }
 .image{
     display: block;
-    width: 600px;
+    width: 700px;
     height: auto;
     min-width: 400px;
+    margin-right: -100px;
 /*    margin-left: 100px;*/
 }
 
@@ -133,6 +134,7 @@ body{
     font-size: 23px;
     /*width: 37%;*/
     width: 40%;
+        
 /*    word-wrap: break-word;*/
 /*    position: absolute;*/
     text-align: left;
@@ -247,6 +249,7 @@ body{
     position: relative;
 /*    width: 50%;*/
 /*    background: yellow;*/
+    padding: 20px;
 }
   
 .animatedImage1 {
@@ -274,10 +277,9 @@ body{
 
 .overlay {
     position: absolute;
-    top: -15px;
-    bottom: -14px;
-    left: -18px;
-    right: 0;
+    top: 7px;
+    bottom: 7px;
+    right: 2px;
     height: auto;
     /* padding: 50px; */
     /* padding-left: 50px; */
@@ -291,7 +293,7 @@ body{
 } 
 
 .container:hover .overlay {
-    opacity: 0.5;
+    opacity: 0.8;
     width: 386px;
 }
 
